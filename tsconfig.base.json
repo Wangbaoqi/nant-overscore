@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+
+    /* base options */
+
+    // 您的目标JavaScript版本。为了稳定性，推荐es2022而不是esnext。
+    "target": "ES2022",
+    // 帮助修补CommonJS和ES模块之间的一些障碍。
+    "esModuleInterop": true,
+    // 跳过检查.d.ts文件的类型。这对于性能很重要，因为否则将检查所有node_modules。
+    "skipLibCheck": true,
+
+    // 允许您导入.js和.json文件。 总是有用的。
+    "allowJs": true,
+    "resolveJsonModule": true,
+
+    // 此选项强制TypeScript将所有文件视为模块。这有助于避免“无法重新声明块作用域变量”错误。
+    "moduleDetection": "force",
+
+    // 此选项可防止一些TS功能，这些功能在将模块视为独立文件时是不安全的。
+    "isolatedDeclarations": true,
+
+    // 此选项强制您使用导入类型和导出类型，从而导致更可预测的行为和更少不必要的导入。对于module：NodeNext，它还强制您为ESM或CJS使用正确的导入语法。
+    "verbatimModuleSyntax": true,
+
+
+    /* Strictness options */
+
+    // 启用所有严格类型检查选项。不可或缺。
+    "strict": true,
+    // 防止您在没有首先检查数组或对象是否被定义的情况下访问它。这是防止运行时错误的好方法，应该包含在strict中。
+    "noUncheckedIndexedAccess": true,
+    // 使override关键字在类中非常有用。
+    "noImplicitOverride": true,
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+
+    /* transpiling with TypeScript */
+
+    // 告诉TypeScript使用什么模块语法。NodeNext是Node的最佳选择。moduleResolution：NodeNext是从这个选项中隐含的。
+    "module": "NodeNext",
+
+    // building for a library
+    "declaration": true,
+
+    // building for a library in a monorepo
+
+    // 告诉TypeScript发出源映射和声明映射。这些是必要的，以便当库的使用者在调试时，他们可以使用go-to-definition跳转到原始源代码。
+    "declarationMap": true,
+    "sourceMap": true,
+
+    // 告诉TypeScript发出.tsbuildinfo文件。这告诉TypeScript您的项目是monorepo的一部分，也有助于它缓存构建以更快地运行。
+    "composite": true,
+
+
+    // for DOM
+    "lib": ["ES2022", "DOM"],
+  }
+}

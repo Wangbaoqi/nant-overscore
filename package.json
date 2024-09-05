@@ -1,12 +1,26 @@
 {
-  "name": "nant-overscore",
+  "name": "nant-es-core",
   "version": "1.0.0",
-  "description": "",
+  "description": "nant es core",
   "main": "index.js",
   "scripts": {
+    "check": "biome check --write ./packages",
+    "lint": "biome lint --write ./packages",
+    "format": "biome format --write ./packages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "es",
+    "ecmascript"
+  ],
+  "author": "Nate Wang <wangbaoqi8839@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "lerna": "^8.1.8",
+    "rollup": "^4.21.2"
+  }
 }
