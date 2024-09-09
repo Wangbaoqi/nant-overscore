@@ -7,6 +7,7 @@
     "check": "biome check --write ./packages",
     "lint": "biome lint --write ./packages",
     "format": "biome format --write ./packages",
+    "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,6 +21,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^22.5.4",
     "lerna": "^8.1.8",
     "rollup": "^4.21.2"
   }

@@ -1,0 +1,5 @@
+
+# .npmignore
+
+*.ts    # ignore .ts file
+!*.d.ts # keep .d.ts file

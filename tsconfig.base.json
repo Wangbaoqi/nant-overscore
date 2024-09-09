@@ -12,13 +12,16 @@
 
     // 允许您导入.js和.json文件。 总是有用的。
     "allowJs": true,
-    "resolveJsonModule": true,
+    "checkJs": true,
+    // "resolveJsonModule": true,
 
     // 此选项强制TypeScript将所有文件视为模块。这有助于避免“无法重新声明块作用域变量”错误。
     "moduleDetection": "force",
+    // 模块解析
+    // "moduleResolution": "NodeNext",
 
     // 此选项可防止一些TS功能，这些功能在将模块视为独立文件时是不安全的。
-    "isolatedDeclarations": true,
+    // "isolatedDeclarations": true,
 
     // 此选项强制您使用导入类型和导出类型，从而导致更可预测的行为和更少不必要的导入。对于module：NodeNext，它还强制您为ESM或CJS使用正确的导入语法。
     "verbatimModuleSyntax": true,
@@ -33,12 +36,12 @@
     // 使override关键字在类中非常有用。
     "noImplicitOverride": true,
     "strictNullChecks": true,
-    "emitDecoratorMetadata": true,
+    // "emitDecoratorMetadata": true,
 
     /* transpiling with TypeScript */
 
     // 告诉TypeScript使用什么模块语法。NodeNext是Node的最佳选择。moduleResolution：NodeNext是从这个选项中隐含的。
-    "module": "NodeNext",
+    "module": "ESNext",
 
     // building for a library
     "declaration": true,
