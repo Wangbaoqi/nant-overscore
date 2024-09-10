@@ -5,5 +5,5 @@
     "moduleResolution": "Classic",
     "target": "ES2022"
   },
-  // "include": ["rollup.config.mjs"]
+  "include": [ "packages/*/src/*", "rollup.config.ts"]
 }

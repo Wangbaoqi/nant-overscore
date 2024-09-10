@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+
 // host environment eg. nodejs or browser
 const documentAll = typeof document === "object" && document.all;
 // IsHTMLDDA-internal-slot and IsLooselyEqual and ToBoolean
@@ -11,19 +13,4 @@ function IsCallable(argument) {
     return typeof argument === "function";
 }
 
-// eslint-disable-next-line import/no-anonymous-default-export
-function isNullOrUndefined(it) {
-    return it === null || it === undefined;
-}
-
-// https://tc39.es/ecma262/#sec-requireobjectcoercible
-function requireObjectCoercible(it) {
-    if (isNullOrUndefined(it))
-        throw new TypeError("Cannot call method on " + it);
-    return it;
-}
-
 exports.IsCallable = IsCallable;
-exports.isNullOrUndefined = isNullOrUndefined;
-exports.requireObjectCoercible = requireObjectCoercible;
-//# sourceMappingURL=index.cjs.js.map

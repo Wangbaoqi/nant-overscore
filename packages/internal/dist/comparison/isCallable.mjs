@@ -9,17 +9,4 @@ function IsCallable(argument) {
     return typeof argument === "function";
 }
 
-// eslint-disable-next-line import/no-anonymous-default-export
-function isNullOrUndefined(it) {
-    return it === null || it === undefined;
-}
-
-// https://tc39.es/ecma262/#sec-requireobjectcoercible
-function requireObjectCoercible(it) {
-    if (isNullOrUndefined(it))
-        throw new TypeError("Cannot call method on " + it);
-    return it;
-}
-
-export { IsCallable, isNullOrUndefined, requireObjectCoercible };
-//# sourceMappingURL=index.esm.js.map
+export { IsCallable };
