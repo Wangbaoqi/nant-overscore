@@ -1,5 +1,5 @@
 {
-  "name": "@nant-es-core/internal",
+  "name": "@nant-es/internal",
   "version": "1.0.0",
   "description": "nant-es-core internal methods for comparison, conversion, object",
   "main": "index.js",

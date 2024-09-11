@@ -7,7 +7,7 @@
     "check": "biome check --write ./packages",
     "lint": "biome lint --write ./packages",
     "format": "biome format --write ./packages",
-    "build": "rollup --config rollup.config.base.mjs --environment PACKAGE_DIR:packages/internal",
+    "build": "rollup --config rollup.config.mjs --environment PACKAGE_DIR:packages/internal",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -27,6 +27,9 @@
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^22.5.4",
     "lerna": "^8.1.8",
-    "rollup": "^4.21.2"
+    "rollup": "^4.21.2",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.7.0"
   }
 }

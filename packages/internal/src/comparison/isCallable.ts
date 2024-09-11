@@ -1,4 +1,4 @@
-import type { LanguageType } from "@/types/languageType";
+import type { LanguageType } from "../types/languageType";
 
 // host environment eg. nodejs or browser
 const documentAll = typeof document === "object" && document.all;

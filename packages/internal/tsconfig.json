@@ -1,15 +1,17 @@
 {
   // "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    // "experimentalDecorators": true,
-    // "emitDecoratorMetadata": true,
-    // "declaration": true,
-    // "declarationDir": "./dist/types",
-    // "outDir": "./dist",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    // "emitDeclarationOnly": true,
+    "outDir": "./dist",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "sourceMap": false,
+    "inlineSources": false,
+    "removeComments": false,
   },
-  "include": ["./src/**/*"],
-  "exclude": ["**/*.spec.ts", "**/node_modules/**", "**/*.test.ts"]
+  "include": ["./src/**/*.ts"],
+  "exclude": ["**/*.spec.ts", "**/node_modules/**", "**/*.test.ts", "./src/types/**"]
 }
