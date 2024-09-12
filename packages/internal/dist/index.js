@@ -1,6 +1,13 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", { value: true });
-const tslib_1 = require("tslib");
-tslib_1.__exportStar(require("./comparison"), exports);
-tslib_1.__exportStar(require("./conversion"), exports);
+Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+
+const isCallable = require('./comparison/isCallable.js');
+const requireObjectCoercible = require('./comparison/requireObjectCoercible.js');
+const toObject = require('./conversion/toObject.js');
+
+
+
+exports.IsCallable = isCallable.IsCallable;
+exports.requireObjectCoercible = requireObjectCoercible.requireObjectCoercible;
+exports.toObject = toObject.toObject;

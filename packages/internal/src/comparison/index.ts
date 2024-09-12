@@ -1,3 +1,3 @@
-export * from './isCallable';
-export * from './requireObjectCoercible';
+export * from './isCallable.ts';
+export * from './requireObjectCoercible.ts';
 // export * from './isNullOrUndefined';

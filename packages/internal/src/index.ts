@@ -1,2 +1,2 @@
-export * from "./comparison";
-export * from './conversion';
+export * from "./comparison/index.ts";
+export * from './conversion/index.ts';

@@ -1,16 +1,22 @@
 {
   // "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "declaration": true,
-    "declarationDir": "./dist/types",
+    "lib": ["ESNext", "DOM"],
+    // "declaration": true,
+    // "declarationDir": "./dist/types",
     // "emitDeclarationOnly": true,
     "outDir": "./dist",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "target": "ESNext",
+    "esModuleInterop": true,
     "sourceMap": false,
     "inlineSources": false,
     "removeComments": false,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "allowImportingTsExtensions": true
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["**/*.spec.ts", "**/node_modules/**", "**/*.test.ts", "./src/types/**"]

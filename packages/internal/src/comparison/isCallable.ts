@@ -15,3 +15,5 @@ export function IsCallable(argument: LanguageType) {
 
 	return typeof argument === "function";
 }
+
+
