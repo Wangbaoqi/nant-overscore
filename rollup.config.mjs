@@ -51,16 +51,6 @@ const libBuildOptions = (options) => {
     plugins: [
       tsPlugin({
         tsconfig: join(packageDir, 'tsconfig.json'),
-        outputToFilesystem: true,   // 确保编译结果输出到文件系统（可以按需配置）
-        declaration: false,
-        // exclude: [...testPatterns],
-        // compilerOptions: {
-
-        //   sourceMap: sourcemap,
-        //   inlineSources: sourcemap || undefined,
-        //   removeComments: !sourcemap,
-        //   declaration: false,
-        // },
       })
     ],
   }
@@ -69,16 +59,12 @@ const libBuildOptions = (options) => {
 const declarationOptions = (options) => {
   const { entrypoints, outDir } = options;
 
-  console.log(mapInputs(entrypoints), 'mapInputs(entrypoints)');
-  console.log(entrypoints, 'entrypoints');
-
-
   return {
     input: mapInputs(entrypoints),
     plugins: [
       dstPlugin()
     ],
-    external: [/\.d\.ts$/],
+    // external: [/\.d\.ts$/],
     output: [
       {
         format: 'esm',
@@ -123,10 +109,10 @@ export default (cmdArgs) => {
       sourcemap: false
     }),
 
-    // declarationOptions({
-    //   entrypoints,
-    //   outDir: `${packageDir}/dist`,
-    // }),
+    declarationOptions({
+      entrypoints,
+      outDir: `${packageDir}/dist`,
+    }),
   ]
 
 }

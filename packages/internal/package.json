@@ -2,7 +2,9 @@
   "name": "@nant-es/internal",
   "version": "1.0.0",
   "description": "nant-es-core internal methods for comparison, conversion, object",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
