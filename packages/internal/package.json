@@ -5,15 +5,25 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wangbaoqi/nantTech-ES.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wangbaoqi/nantTech-ES/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["es", "ecmascript"],
   "packageManager": "pnpm@8.6.3",
+  "files": ["dist", "*.d.ts"],
   "exports": {
     ".": "./src/index.ts",
     "./comparison": "./src/comparison/index.ts",
-    "./conversion": "./src/conversion/index.ts"
+    "./conversion": "./src/conversion/index.ts",
+    "./package.json": "./package.json"
   },
   "author": "nate wang <wangbaoqi8839@gmail.com>",
   "license": "MIT"
