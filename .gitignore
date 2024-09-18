@@ -3,3 +3,7 @@ node_modules
 
 .git
 .nx/cache
+.package-lock.json
+.npmrc
+.DS_Store
+lerna-debug.log

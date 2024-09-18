@@ -9,7 +9,7 @@ const IsHTMLDDA =
 
 
 // https://tc39.es/ecma262/#sec-iscallable
-export function IsCallable(argument: LanguageType) {
+export function isCallable(argument: LanguageType) {
 	if (IsHTMLDDA)
 		return typeof argument === "function" || argument === documentAll;
 

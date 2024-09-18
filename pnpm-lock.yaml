@@ -48,6 +48,14 @@ importers:
 
   packages/internal: {}
 
+  packages/modules:
+    dependencies:
+      '@nant-es/internal':
+        specifier: workspace:*
+        version: link:../internal
+
+  packages/toolkit: {}
+
 packages:
 
   '@babel/code-frame@7.24.7':

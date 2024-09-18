@@ -1,5 +1,5 @@
 import { LanguageType } from '../types/languageType.mjs';
 
-declare function IsCallable(argument: LanguageType): boolean;
+declare function isCallable(argument: LanguageType): boolean;
 
-export { IsCallable };
+export { isCallable };

@@ -6,6 +6,8 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "sideEffects": false,
+  "author": "nate wang <wangbaoqi8839@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Wangbaoqi/nantTech-ES.git"
@@ -14,17 +16,15 @@
     "url": "https://github.com/Wangbaoqi/nantTech-ES/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
-  "keywords": ["es", "ecmascript"],
+  "keywords": ["es", "ecmascript", "es-internal"],
   "packageManager": "pnpm@8.6.3",
-  "files": ["dist", "*.d.ts"],
+  "files": ["dist"],
   "exports": {
     ".": "./src/index.ts",
     "./comparison": "./src/comparison/index.ts",
     "./conversion": "./src/conversion/index.ts",
     "./package.json": "./package.json"
-  },
-  "author": "nate wang <wangbaoqi8839@gmail.com>",
-  "license": "MIT"
+  }
 }

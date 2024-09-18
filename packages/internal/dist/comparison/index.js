@@ -7,5 +7,5 @@ const requireObjectCoercible = require('./requireObjectCoercible.js');
 
 
 
-exports.IsCallable = isCallable.IsCallable;
+exports.isCallable = isCallable.isCallable;
 exports.requireObjectCoercible = requireObjectCoercible.requireObjectCoercible;

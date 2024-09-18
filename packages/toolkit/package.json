@@ -1,12 +1,29 @@
 {
-  "name": "toolkit",
+  "name": "@nant-es/toolkit",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "nant-es-core internal methods for comparison, conversion, object",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "author": "nate wang <wangbaoqi8839@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wangbaoqi/nantTech-ES.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/Wangbaoqi/nantTech-ES/issues"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": ["es", "ecmascript", "es-internal"],
+  "packageManager": "pnpm@8.6.3",
+  "files": ["dist"],
+  "exports": {
+    ".": "./src/index.ts",
+    "./array": "./src/array/index.ts",
+    "./package.json": "./package.json"
+  }
 }

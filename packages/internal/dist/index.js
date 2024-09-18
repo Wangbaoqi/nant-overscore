@@ -8,6 +8,6 @@ const toObject = require('./conversion/toObject.js');
 
 
 
-exports.IsCallable = isCallable.IsCallable;
+exports.isCallable = isCallable.isCallable;
 exports.requireObjectCoercible = requireObjectCoercible.requireObjectCoercible;
 exports.toObject = toObject.toObject;

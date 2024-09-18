@@ -1,0 +1,293 @@
+[NX Daemon Server] - 2024-09-18T08:17:59.991Z - Started listening on: /var/folders/gx/4mj60jrn57j0g1scn5yvlq0m0000gn/T/c504ccba81bfaa0c5311/d.sock
+[NX Daemon Server] - 2024-09-18T08:17:59.992Z - [WATCHER]: Subscribed to changes within: /Users/wangbaoqi/personal/nant-es-core (native)
+[NX Daemon Server] - 2024-09-18T08:17:59.994Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-18T08:17:59.995Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-18T08:17:59.995Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-18T08:17:59.996Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-18T08:18:00.110Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:18:00.110Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:18:00.110Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:18:00.114Z - Time taken for 'loadNxPlugins' 113.37762499973178ms
+[NX Daemon Server] - 2024-09-18T08:18:00.268Z - Time taken for 'build-project-configs' 147.59149999916553ms
+[NX Daemon Server] - 2024-09-18T08:18:00.279Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:18:00.279Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:18:00.279Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-18T08:18:00.279Z - Time taken for 'total for creating and serializing project graph' 283.04308399930596ms
+[NX Daemon Server] - 2024-09-18T08:18:00.282Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-18T08:18:00.282Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 283. Response time: 3.
+[NX Daemon Server] - 2024-09-18T08:18:00.286Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-09-18T08:18:00.286Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-09-18T08:18:00.286Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:18:00.298Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-18T08:18:13.907Z - [WATCHER]: lerna.json was modified
+[NX Daemon Server] - 2024-09-18T08:18:13.908Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:18:14.015Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:18:14.016Z - [REQUEST]: lerna.json
+[NX Daemon Server] - 2024-09-18T08:18:14.016Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:18:14.026Z - Time taken for 'hash changed files from watcher' 1.6577500011771917ms
+[NX Daemon Server] - 2024-09-18T08:18:14.047Z - Time taken for 'build-project-configs' 24.478917000815272ms
+[NX Daemon Server] - 2024-09-18T08:18:14.064Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:18:14.064Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:18:14.064Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:18:14.064Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:18:14.064Z - Time taken for 'total execution time for createProjectGraph()' 15.539875000715256ms
+[NX Daemon Server] - 2024-09-18T08:26:45.023Z - [WATCHER]: rollup.config.base.mjs was modified
+[NX Daemon Server] - 2024-09-18T08:26:45.023Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:26:45.229Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:26:45.229Z - [REQUEST]: rollup.config.base.mjs
+[NX Daemon Server] - 2024-09-18T08:26:45.229Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:26:45.237Z - Time taken for 'hash changed files from watcher' 0.3927500005811453ms
+[NX Daemon Server] - 2024-09-18T08:26:45.259Z - Time taken for 'build-project-configs' 24.576917000114918ms
+[NX Daemon Server] - 2024-09-18T08:26:45.275Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:26:45.275Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:26:45.275Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:26:45.275Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:26:45.275Z - Time taken for 'total execution time for createProjectGraph()' 13.777125000953674ms
+[NX Daemon Server] - 2024-09-18T08:26:53.189Z - [WATCHER]: rollup.config.mjs was deleted
+[NX Daemon Server] - 2024-09-18T08:26:53.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:26:53.592Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:26:53.592Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:26:53.592Z - [REQUEST]: rollup.config.mjs
+[NX Daemon Server] - 2024-09-18T08:26:53.602Z - Time taken for 'hash changed files from watcher' 0.10495799966156483ms
+[NX Daemon Server] - 2024-09-18T08:26:53.613Z - Time taken for 'build-project-configs' 16.70454099960625ms
+[NX Daemon Server] - 2024-09-18T08:26:53.628Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:26:53.629Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:26:53.629Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:26:53.629Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:26:53.629Z - Time taken for 'total execution time for createProjectGraph()' 13.188041999936104ms
+[NX Daemon Server] - 2024-09-18T08:27:16.594Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-09-18T08:27:16.594Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:27:16.594Z - [WATCHER]: Stopping the watcher for /Users/wangbaoqi/personal/nant-es-core (sources)
+[NX Daemon Server] - 2024-09-18T08:27:16.595Z - [WATCHER]: Stopping the watcher for /Users/wangbaoqi/personal/nant-es-core (outputs)
+[NX Daemon Server] - 2024-09-18T08:27:16.598Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-09-18T08:49:47.904Z - Started listening on: /var/folders/gx/4mj60jrn57j0g1scn5yvlq0m0000gn/T/c504ccba81bfaa0c5311/d.sock
+[NX Daemon Server] - 2024-09-18T08:49:47.906Z - [WATCHER]: Subscribed to changes within: /Users/wangbaoqi/personal/nant-es-core (native)
+[NX Daemon Server] - 2024-09-18T08:49:47.909Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-18T08:49:47.910Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-18T08:49:47.911Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-18T08:49:47.911Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-18T08:49:48.023Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:49:48.023Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:49:48.023Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:49:48.027Z - Time taken for 'loadNxPlugins' 110.82100000046194ms
+[NX Daemon Server] - 2024-09-18T08:49:48.175Z - Time taken for 'build-project-configs' 142.25145900063217ms
+[NX Daemon Server] - 2024-09-18T08:49:48.184Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:49:48.184Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:49:48.184Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-18T08:49:48.185Z - Time taken for 'total for creating and serializing project graph' 273.02766699902713ms
+[NX Daemon Server] - 2024-09-18T08:49:48.187Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-18T08:49:48.187Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 273. Response time: 3.
+[NX Daemon Server] - 2024-09-18T08:49:48.189Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-09-18T08:49:48.189Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-09-18T08:49:48.189Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:49:52.570Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-18T08:52:39.017Z - [WATCHER]: lerna.json was modified
+[NX Daemon Server] - 2024-09-18T08:52:39.018Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:52:39.120Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:52:39.121Z - [REQUEST]: lerna.json
+[NX Daemon Server] - 2024-09-18T08:52:39.121Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:52:39.142Z - Time taken for 'hash changed files from watcher' 0.9610839989036322ms
+[NX Daemon Server] - 2024-09-18T08:52:39.148Z - Time taken for 'build-project-configs' 20.876917000859976ms
+[NX Daemon Server] - 2024-09-18T08:52:39.160Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:52:39.161Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:52:39.161Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:52:39.161Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:52:39.161Z - Time taken for 'total execution time for createProjectGraph()' 10.234916999936104ms
+[NX Daemon Server] - 2024-09-18T08:53:02.975Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-18T08:53:02.977Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-18T08:53:02.977Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-18T08:53:02.978Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-18T08:53:02.978Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-18T08:53:02.978Z - Time taken for 'total for creating and serializing project graph' 0.10950000025331974ms
+[NX Daemon Server] - 2024-09-18T08:53:02.979Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-18T08:53:02.979Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-18T08:53:02.981Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-09-18T08:53:02.981Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-09-18T08:53:02.981Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:53:02.991Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-18T08:53:02.991Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-18T08:53:02.991Z - Time taken for 'total for creating and serializing project graph' 0.15662499889731407ms
+[NX Daemon Server] - 2024-09-18T08:53:02.992Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-18T08:53:02.992Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-18T08:53:03.002Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-09-18T08:53:03.002Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-09-18T08:53:03.002Z - Handled HASH_TASKS. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:53:05.939Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:53:05.939Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:53:05.939Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:53:06.522Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:53:06.523Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-09-18T08:53:06.625Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:53:06.625Z - [REQUEST]: packages/internal/dist/comparison/requireObjectCoercible.mjs,packages/internal/dist/comparison/isNullOrUndefined.mjs,packages/internal/dist/conversion/index.mjs,packages/internal/dist/conversion/toObject.mjs,packages/internal/dist/comparison/isCallable.mjs,packages/internal/dist/index.mjs,packages/internal/dist/comparison/index.mjs
+[NX Daemon Server] - 2024-09-18T08:53:06.625Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:53:06.626Z - Time taken for 'hash changed files from watcher' 0.23787499964237213ms
+[NX Daemon Server] - 2024-09-18T08:53:06.630Z - Time taken for 'build-project-configs' 3.885665999725461ms
+[NX Daemon Server] - 2024-09-18T08:53:06.639Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:53:06.639Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:53:06.639Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:53:06.639Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:53:06.640Z - Time taken for 'total execution time for createProjectGraph()' 8.179958000779152ms
+[NX Daemon Server] - 2024-09-18T08:53:06.840Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-09-18T08:53:06.840Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:53:06.943Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:53:06.943Z - [REQUEST]: packages/internal/dist/comparison/requireObjectCoercible.js,packages/internal/dist/comparison/isCallable.js,packages/internal/dist/comparison/isNullOrUndefined.js,packages/internal/dist/conversion/toObject.js,packages/internal/dist/index.js,packages/internal/dist/comparison/index.js,packages/internal/dist/conversion/index.js
+[NX Daemon Server] - 2024-09-18T08:53:06.943Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:53:06.944Z - Time taken for 'hash changed files from watcher' 0.4392920006066561ms
+[NX Daemon Server] - 2024-09-18T08:53:06.951Z - Time taken for 'build-project-configs' 6.042999999597669ms
+[NX Daemon Server] - 2024-09-18T08:53:06.959Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:53:06.959Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:53:06.959Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:53:06.959Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:53:06.959Z - Time taken for 'total execution time for createProjectGraph()' 6.746167000383139ms
+[NX Daemon Server] - 2024-09-18T08:53:07.069Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:53:07.069Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:53:07.069Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:53:07.071Z - [REQUEST]: Responding to the client. handleWriteTaskRunsToHistory
+[NX Daemon Server] - 2024-09-18T08:53:07.071Z - Done responding to the client handleWriteTaskRunsToHistory
+[NX Daemon Server] - 2024-09-18T08:53:07.071Z - Handled WRITE_TASK_RUNS_TO_HISTORY. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:53:07.072Z - [REQUEST]: Responding to the client. handleGetTaskHistoryForHashes
+[NX Daemon Server] - 2024-09-18T08:53:07.072Z - Done responding to the client handleGetTaskHistoryForHashes
+[NX Daemon Server] - 2024-09-18T08:53:07.072Z - Handled GET_TASK_HISTORY_FOR_HASHES. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:53:07.076Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-18T08:53:07.103Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:53:07.103Z - [WATCHER]: 14 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-09-18T08:53:07.205Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:53:07.205Z - [REQUEST]: packages/internal/dist/comparison/isCallable.d.ts,packages/internal/dist/types/languageType.d.mts,packages/internal/dist/conversion/toObject.d.mts,packages/internal/dist/conversion/index.d.mts,packages/internal/dist/comparison/requireObjectCoercible.d.mts,packages/internal/dist/comparison/index.d.ts,packages/internal/dist/conversion/toObject.d.ts,packages/internal/dist/types/languageType.d.ts,packages/internal/dist/comparison/requireObjectCoercible.d.ts,packages/internal/dist/comparison/index.d.mts,packages/internal/dist/index.d.mts,packages/internal/dist/comparison/isCallable.d.mts,packages/internal/dist/index.d.ts,packages/internal/dist/conversion/index.d.ts
+[NX Daemon Server] - 2024-09-18T08:53:07.205Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:53:07.206Z - Time taken for 'hash changed files from watcher' 0.25312500074505806ms
+[NX Daemon Server] - 2024-09-18T08:53:07.211Z - Time taken for 'build-project-configs' 3.838333001360297ms
+[NX Daemon Server] - 2024-09-18T08:53:07.219Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:53:07.219Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:53:07.219Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:53:07.219Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:53:07.219Z - Time taken for 'total execution time for createProjectGraph()' 5.711041999980807ms
+[NX Daemon Server] - 2024-09-18T08:53:59.032Z - [WATCHER]: packages/toolkit/package.json was modified
+[NX Daemon Server] - 2024-09-18T08:53:59.032Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:53:59.232Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:53:59.233Z - [REQUEST]: packages/toolkit/package.json
+[NX Daemon Server] - 2024-09-18T08:53:59.233Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:53:59.250Z - Time taken for 'hash changed files from watcher' 0.24499999918043613ms
+[NX Daemon Server] - 2024-09-18T08:53:59.253Z - Time taken for 'build-project-configs' 17.94833399914205ms
+[NX Daemon Server] - 2024-09-18T08:53:59.262Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:53:59.262Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:53:59.262Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:53:59.262Z - Time taken for 'total execution time for createProjectGraph()' 8.284708999097347ms
+[NX Daemon Server] - 2024-09-18T08:54:02.682Z - [WATCHER]: packages/toolkit/package.json was modified
+[NX Daemon Server] - 2024-09-18T08:54:02.682Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:54:03.084Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:54:03.084Z - [REQUEST]: packages/toolkit/package.json
+[NX Daemon Server] - 2024-09-18T08:54:03.084Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:54:03.093Z - Time taken for 'hash changed files from watcher' 0.31375000067055225ms
+[NX Daemon Server] - 2024-09-18T08:54:03.101Z - Time taken for 'build-project-configs' 13.103583000600338ms
+[NX Daemon Server] - 2024-09-18T08:54:03.109Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:54:03.109Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:54:03.109Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:54:03.109Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:54:03.109Z - Time taken for 'total execution time for createProjectGraph()' 7.987917000427842ms
+[NX Daemon Server] - 2024-09-18T08:55:03.422Z - [WATCHER]: packages/toolkit/package.json was modified
+[NX Daemon Server] - 2024-09-18T08:55:03.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:55:04.227Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:55:04.227Z - [REQUEST]: packages/toolkit/package.json
+[NX Daemon Server] - 2024-09-18T08:55:04.227Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:55:04.237Z - Time taken for 'hash changed files from watcher' 0.5030000004917383ms
+[NX Daemon Server] - 2024-09-18T08:55:04.250Z - Time taken for 'build-project-configs' 15.435291001573205ms
+[NX Daemon Server] - 2024-09-18T08:55:04.258Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:55:04.258Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:55:04.258Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:55:04.258Z - Time taken for 'total execution time for createProjectGraph()' 7.961625000461936ms
+[NX Daemon Server] - 2024-09-18T08:55:09.835Z - [WATCHER]: packages/modules/package.json was modified
+[NX Daemon Server] - 2024-09-18T08:55:09.836Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:55:11.436Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:55:11.436Z - [REQUEST]: packages/modules/package.json
+[NX Daemon Server] - 2024-09-18T08:55:11.436Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:55:11.443Z - Time taken for 'hash changed files from watcher' 0.2210840005427599ms
+[NX Daemon Server] - 2024-09-18T08:55:11.449Z - Time taken for 'build-project-configs' 10.246292000636458ms
+[NX Daemon Server] - 2024-09-18T08:55:11.461Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:55:11.461Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:55:11.461Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:55:11.461Z - Time taken for 'total execution time for createProjectGraph()' 5.478374999016523ms
+[NX Daemon Server] - 2024-09-18T08:55:13.369Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-18T08:55:13.371Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-18T08:55:13.371Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-18T08:55:13.372Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-18T08:55:13.372Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-18T08:55:13.372Z - Time taken for 'total for creating and serializing project graph' 0.18279200047254562ms
+[NX Daemon Server] - 2024-09-18T08:55:13.374Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-18T08:55:13.374Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-09-18T08:55:13.375Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-09-18T08:55:13.375Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-09-18T08:55:13.375Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:55:13.384Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-18T08:55:13.384Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-18T08:55:13.384Z - Time taken for 'total for creating and serializing project graph' 0.10962500050663948ms
+[NX Daemon Server] - 2024-09-18T08:55:13.384Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-18T08:55:13.384Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:55:13.391Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-09-18T08:55:13.392Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-09-18T08:55:13.392Z - Handled HASH_TASKS. Handling time: 3. Response time: 1.
+[NX Daemon Server] - 2024-09-18T08:55:14.473Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 28 file(s) deleted
+[NX Daemon Server] - 2024-09-18T08:55:14.473Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:55:14.575Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:55:14.575Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:55:14.575Z - [REQUEST]: packages/internal/dist/comparison/requireObjectCoercible.d.mts,packages/internal/dist/comparison/isCallable.d.mts,packages/internal/dist/conversion/toObject.mjs,packages/internal/dist/comparison/isCallable.d.ts,packages/internal/dist/comparison/index.d.mts,packages/internal/dist/comparison/requireObjectCoercible.mjs,packages/internal/dist/conversion/toObject.js,packages/internal/dist/index.d.mts,packages/internal/dist/conversion/index.mjs,packages/internal/dist/comparison/isNullOrUndefined.js,packages/internal/dist/conversion/index.d.mts,packages/internal/dist/comparison/index.mjs,packages/internal/dist/conversion/toObject.d.ts,packages/internal/dist/comparison/index.js,packages/internal/dist/comparison/requireObjectCoercible.js,packages/internal/dist/comparison/requireObjectCoercible.d.ts,packages/internal/dist/comparison/isNullOrUndefined.mjs,packages/internal/dist/index.d.ts,packages/internal/dist/conversion/index.js,packages/internal/dist/comparison/isCallable.mjs,packages/internal/dist/comparison/isCallable.js,packages/internal/dist/types/languageType.d.mts,packages/internal/dist/index.mjs,packages/internal/dist/comparison/index.d.ts,packages/internal/dist/index.js,packages/internal/dist/conversion/toObject.d.mts,packages/internal/dist/conversion/index.d.ts,packages/internal/dist/types/languageType.d.ts
+[NX Daemon Server] - 2024-09-18T08:55:14.578Z - Time taken for 'hash changed files from watcher' 0.14254199899733067ms
+[NX Daemon Server] - 2024-09-18T08:55:14.582Z - Time taken for 'build-project-configs' 4.833457998931408ms
+[NX Daemon Server] - 2024-09-18T08:55:14.596Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:55:14.596Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:55:14.596Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:55:14.596Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:55:14.596Z - Time taken for 'total execution time for createProjectGraph()' 10.79666700027883ms
+[NX Daemon Server] - 2024-09-18T08:55:15.139Z - [WATCHER]: 13 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-09-18T08:55:15.140Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:55:15.241Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:55:15.241Z - [REQUEST]: packages/modules/dist/promise/index.mjs,packages/modules/dist/array/index.mjs,packages/toolkit/dist/array/chunk.mjs,packages/toolkit/dist/index.mjs,packages/toolkit/dist/array/index.mjs,packages/internal/dist/index.mjs,packages/internal/dist/comparison/isNullOrUndefined.mjs,packages/internal/dist/comparison/requireObjectCoercible.mjs,packages/internal/dist/comparison/index.mjs,packages/internal/dist/comparison/isCallable.mjs,packages/modules/dist/index.mjs,packages/internal/dist/conversion/toObject.mjs,packages/internal/dist/conversion/index.mjs
+[NX Daemon Server] - 2024-09-18T08:55:15.241Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:55:15.245Z - Time taken for 'hash changed files from watcher' 1.037499999627471ms
+[NX Daemon Server] - 2024-09-18T08:55:15.251Z - Time taken for 'build-project-configs' 6.534917000681162ms
+[NX Daemon Server] - 2024-09-18T08:55:15.259Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:55:15.259Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:55:15.259Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:55:15.259Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:55:15.259Z - Time taken for 'total execution time for createProjectGraph()' 8.517582999542356ms
+[NX Daemon Server] - 2024-09-18T08:55:15.483Z - [WATCHER]: 13 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-09-18T08:55:15.483Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:55:15.585Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:55:15.585Z - [REQUEST]: packages/internal/dist/index.js,packages/internal/dist/conversion/index.js,packages/toolkit/dist/array/index.js,packages/modules/dist/array/index.js,packages/toolkit/dist/index.js,packages/internal/dist/comparison/isCallable.js,packages/internal/dist/comparison/requireObjectCoercible.js,packages/internal/dist/comparison/isNullOrUndefined.js,packages/modules/dist/index.js,packages/modules/dist/promise/index.js,packages/internal/dist/conversion/toObject.js,packages/toolkit/dist/array/chunk.js,packages/internal/dist/comparison/index.js
+[NX Daemon Server] - 2024-09-18T08:55:15.585Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:55:15.587Z - Time taken for 'hash changed files from watcher' 0.2853330001235008ms
+[NX Daemon Server] - 2024-09-18T08:55:15.592Z - Time taken for 'build-project-configs' 5.325916999951005ms
+[NX Daemon Server] - 2024-09-18T08:55:15.617Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:55:15.617Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:55:15.617Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:55:15.617Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:55:15.617Z - Time taken for 'total execution time for createProjectGraph()' 23.67149999924004ms
+[NX Daemon Server] - 2024-09-18T08:55:15.748Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:55:15.748Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:55:15.748Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:55:15.758Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:55:15.758Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:55:15.758Z - Handled RECORD_OUTPUTS_HASH. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:55:15.774Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:55:15.775Z - [WATCHER]: 26 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-09-18T08:55:15.806Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:55:15.806Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-18T08:55:15.806Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:55:15.807Z - [REQUEST]: Responding to the client. handleWriteTaskRunsToHistory
+[NX Daemon Server] - 2024-09-18T08:55:15.807Z - Done responding to the client handleWriteTaskRunsToHistory
+[NX Daemon Server] - 2024-09-18T08:55:15.807Z - Handled WRITE_TASK_RUNS_TO_HISTORY. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:55:15.808Z - [REQUEST]: Responding to the client. handleGetTaskHistoryForHashes
+[NX Daemon Server] - 2024-09-18T08:55:15.808Z - Done responding to the client handleGetTaskHistoryForHashes
+[NX Daemon Server] - 2024-09-18T08:55:15.808Z - Handled GET_TASK_HISTORY_FOR_HASHES. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-18T08:55:15.812Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-18T08:55:15.830Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-18T08:55:15.830Z - [WATCHER]: 6 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-09-18T08:55:15.877Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-18T08:55:15.877Z - [REQUEST]: packages/internal/dist/conversion/index.d.mts,packages/internal/dist/types/languageType.d.mts,packages/internal/dist/conversion/toObject.d.ts,packages/internal/dist/conversion/index.d.ts,packages/internal/dist/comparison/index.d.mts,packages/toolkit/dist/array/index.d.mts,packages/modules/dist/array/index.d.mts,packages/toolkit/dist/index.d.mts,packages/internal/dist/index.d.ts,packages/modules/dist/promise/index.d.ts,packages/internal/dist/index.d.mts,packages/internal/dist/conversion/toObject.d.mts,packages/internal/dist/comparison/requireObjectCoercible.d.ts,packages/toolkit/dist/array/chunk.d.ts,packages/toolkit/dist/array/index.d.ts,packages/modules/dist/index.d.ts,packages/internal/dist/comparison/isCallable.d.ts,packages/modules/dist/promise/index.d.mts,packages/modules/dist/array/index.d.ts,packages/internal/dist/comparison/index.d.ts,packages/modules/dist/index.d.mts,packages/internal/dist/comparison/isCallable.d.mts,packages/toolkit/dist/index.d.ts,packages/internal/dist/comparison/requireObjectCoercible.d.mts,packages/internal/dist/types/languageType.d.ts,packages/toolkit/dist/array/chunk.d.mts
+[NX Daemon Server] - 2024-09-18T08:55:15.877Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-18T08:55:15.879Z - Time taken for 'hash changed files from watcher' 0.4364579990506172ms
+[NX Daemon Server] - 2024-09-18T08:55:15.882Z - Time taken for 'build-project-configs' 3.6720410007983446ms
+[NX Daemon Server] - 2024-09-18T08:55:15.889Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-18T08:55:15.889Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-18T08:55:15.889Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-18T08:55:15.889Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-18T08:55:15.889Z - Time taken for 'total execution time for createProjectGraph()' 5.757166000083089ms

@@ -9,8 +9,8 @@ import tsPlugin from '@rollup/plugin-typescript';
 import dstPlugin from 'rollup-plugin-dts';
 
 const require = createRequire(import.meta.url);
-const packageDir = process.env.PACKAGE_DIR;
-const packageJSON = require(`./${packageDir}/package.json`);
+const packageDir = './' || process.env.PACKAGE_DIR;
+const packageJSON = require(`${packageDir}/package.json`);
 
 const clearDir = (dir) => {
   const dirPath = join(packageDir, dir);
