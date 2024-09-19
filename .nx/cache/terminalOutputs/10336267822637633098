@@ -1,0 +1,16 @@
+
+> toolkit@1.0.0 build /Users/wangbaoqi/personal/nant-es-core/packages/toolkit
+> rollup -c
+
+cmdArgs { _: [], c: [33mtrue[39m, config: [33mtrue[39m }
+[1m[31m[!] [1mTypeError: Cannot convert undefined or null to object[22m[1m[39m[22m
+[2m    at Function.values (<anonymous>)
+    at default (file:///Users/wangbaoqi/personal/nant-es-core/packages/toolkit/rollup.config.mjs:91:30)
+    at getConfigList (/Users/wangbaoqi/personal/nant-es-core/node_modules/.pnpm/rollup@4.21.2/node_modules/rollup/dist/shared/loadConfigFile.js:541:11)
+    at Object.loadConfigFile (/Users/wangbaoqi/personal/nant-es-core/node_modules/.pnpm/rollup@4.21.2/node_modules/rollup/dist/shared/loadConfigFile.js:430:27)
+    at async getConfigs (/Users/wangbaoqi/personal/nant-es-core/node_modules/.pnpm/rollup@4.21.2/node_modules/rollup/dist/bin/rollup:1728:39)
+    at async runRollup (/Users/wangbaoqi/personal/nant-es-core/node_modules/.pnpm/rollup@4.21.2/node_modules/rollup/dist/bin/rollup:1699:43)[22m
+
+
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[43m[30m WARN [39m[49m  Local package.json exists, but node_modules missing, did you mean to install?

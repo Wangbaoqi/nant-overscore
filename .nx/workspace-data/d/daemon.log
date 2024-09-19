@@ -377,3 +377,40 @@
 [NX Daemon Server] - 2024-09-19T01:50:58.741Z - [WATCHER]: Stopping the watcher for /Users/wangbaoqi/personal/nant-es-core (sources)
 [NX Daemon Server] - 2024-09-19T01:50:58.741Z - [WATCHER]: Stopping the watcher for /Users/wangbaoqi/personal/nant-es-core (outputs)
 [NX Daemon Server] - 2024-09-19T01:50:58.747Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-09-19T01:51:52.486Z - Started listening on: /var/folders/gx/4mj60jrn57j0g1scn5yvlq0m0000gn/T/c504ccba81bfaa0c5311/d.sock
+[NX Daemon Server] - 2024-09-19T01:51:52.488Z - [WATCHER]: Subscribed to changes within: /Users/wangbaoqi/personal/nant-es-core (native)
+[NX Daemon Server] - 2024-09-19T01:51:52.490Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-19T01:51:52.490Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-19T01:51:52.491Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-19T01:51:52.492Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-19T01:51:52.553Z - [WATCHER]: .nx/workspace-data/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-09-19T01:51:52.600Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-19T01:51:52.600Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-09-19T01:51:52.601Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-19T01:51:52.604Z - Time taken for 'loadNxPlugins' 108.06887500034645ms
+[NX Daemon Server] - 2024-09-19T01:51:52.654Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-19T01:51:52.655Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-09-19T01:51:52.655Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-19T01:51:52.656Z - Time taken for 'hash changed files from watcher' 0.12041700026020408ms
+[NX Daemon Server] - 2024-09-19T01:51:52.752Z - Time taken for 'build-project-configs' 86.75733399996534ms
+[NX Daemon Server] - 2024-09-19T01:51:52.753Z - Time taken for 'build-project-configs' 97.1981669999659ms
+[NX Daemon Server] - 2024-09-19T01:51:52.760Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-19T01:51:52.760Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-19T01:51:52.761Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-19T01:51:52.761Z - Time taken for 'total for creating and serializing project graph' 268.91175000043586ms
+[NX Daemon Server] - 2024-09-19T01:51:52.762Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-19T01:51:52.762Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 269. Response time: 1.
+[NX Daemon Server] - 2024-09-19T01:51:52.766Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-19T01:51:52.767Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-19T01:51:52.767Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-19T01:51:52.767Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-19T01:51:52.767Z - Time taken for 'total execution time for createProjectGraph()' 11.805000000167638ms
+[NX Daemon Server] - 2024-09-19T01:51:52.767Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-09-19T01:51:52.767Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-09-19T01:51:52.767Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-19T01:51:58.627Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-19T01:52:30.391Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-09-19T01:52:30.392Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-19T01:52:30.392Z - [WATCHER]: Stopping the watcher for /Users/wangbaoqi/personal/nant-es-core (sources)
+[NX Daemon Server] - 2024-09-19T01:52:30.393Z - [WATCHER]: Stopping the watcher for /Users/wangbaoqi/personal/nant-es-core (outputs)
+[NX Daemon Server] - 2024-09-19T01:52:30.397Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
