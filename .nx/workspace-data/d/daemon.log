@@ -494,3 +494,20 @@
 [NX Daemon Server] - 2024-09-19T01:59:46.137Z - Done responding to the client handleContextFileData
 [NX Daemon Server] - 2024-09-19T01:59:46.137Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
 [NX Daemon Server] - 2024-09-19T01:59:50.357Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-19T02:02:41.253Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-19T02:02:41.254Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-19T02:02:41.254Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-19T02:02:41.255Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-19T02:02:41.255Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-19T02:02:41.255Z - Time taken for 'total for creating and serializing project graph' 0.13608299987390637ms
+[NX Daemon Server] - 2024-09-19T02:02:41.256Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-19T02:02:41.256Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-19T02:02:41.258Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-09-19T02:02:41.258Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-09-19T02:02:41.258Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-19T02:02:50.966Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-19T02:20:09.383Z - [WATCHER]: .nxignore was created or restored
+[NX Daemon Server] - 2024-09-19T02:20:09.383Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-19T02:20:09.384Z - [WATCHER]: Stopping the watcher for /Users/wangbaoqi/personal/nant-es-core (sources)
+[NX Daemon Server] - 2024-09-19T02:20:09.384Z - [WATCHER]: Stopping the watcher for /Users/wangbaoqi/personal/nant-es-core (outputs)
+[NX Daemon Server] - 2024-09-19T02:20:09.385Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
