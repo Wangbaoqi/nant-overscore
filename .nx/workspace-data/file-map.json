@@ -20,52 +20,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".npmignore",
-        "hash": "15296119703863351660"
-      },
-      {
         "file": "rollup.config.base.mjs",
         "hash": "21711382199078859"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "11798166904939610555"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "16301509908243031255"
-      },
-      {
-        "file": "biome.json",
-        "hash": "4510303043778514619"
-      },
-      {
-        "file": "playground/index.html",
-        "hash": "282954965526059906"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "5042987118078459874"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "10070796640739704990"
-      },
-      {
-        "file": "package.json",
-        "hash": "5582669534173391050"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "2958801209786017785"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "17550243957646859850"
-      },
-      {
-        "file": "playground/a.js",
-        "hash": "17027583102102296569"
       },
       {
         "file": "README.md",
@@ -76,89 +32,55 @@
         "hash": "1921754567074770008"
       },
       {
+        "file": "playground/index.html",
+        "hash": "282954965526059906"
+      },
+      {
+        "file": "playground/a.js",
+        "hash": "17027583102102296569"
+      },
+      {
+        "file": "biome.json",
+        "hash": "4510303043778514619"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2458673331548014493"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "10070796640739704990"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "11798166904939610555"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "2958801209786017785"
+      },
+      {
+        "file": "package.json",
+        "hash": "5582669534173391050"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5042987118078459874"
+      },
+      {
+        "file": ".npmignore",
+        "hash": "15296119703863351660"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "16301509908243031255"
+      },
+      {
         "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "15336235108844590906"
+        "hash": "5053342243504666515"
       }
     ],
     "projectFileMap": {
-      "@nant-es/toolkit": [
-        {
-          "file": "packages/toolkit/README.md",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "packages/toolkit/dist/array/chunk.d.mts",
-          "hash": "3052921832016101854"
-        },
-        {
-          "file": "packages/toolkit/dist/array/chunk.d.ts",
-          "hash": "3052921832016101854"
-        },
-        {
-          "file": "packages/toolkit/dist/array/chunk.js",
-          "hash": "12136413386987245333"
-        },
-        {
-          "file": "packages/toolkit/dist/array/chunk.mjs",
-          "hash": "12514636505793649937"
-        },
-        {
-          "file": "packages/toolkit/dist/array/index.d.mts",
-          "hash": "6855934436506497041"
-        },
-        {
-          "file": "packages/toolkit/dist/array/index.d.ts",
-          "hash": "9642792232448050960"
-        },
-        {
-          "file": "packages/toolkit/dist/array/index.js",
-          "hash": "2628887171878517201"
-        },
-        {
-          "file": "packages/toolkit/dist/array/index.mjs",
-          "hash": "6855934436506497041"
-        },
-        {
-          "file": "packages/toolkit/dist/index.d.mts",
-          "hash": "6809919956944389483"
-        },
-        {
-          "file": "packages/toolkit/dist/index.d.ts",
-          "hash": "13874858666273516473"
-        },
-        {
-          "file": "packages/toolkit/dist/index.js",
-          "hash": "17305447891298371457"
-        },
-        {
-          "file": "packages/toolkit/dist/index.mjs",
-          "hash": "6809919956944389483"
-        },
-        {
-          "file": "packages/toolkit/package.json",
-          "hash": "772835783113065039"
-        },
-        {
-          "file": "packages/toolkit/rollup.config.mjs",
-          "hash": "3966795376785807132"
-        },
-        {
-          "file": "packages/toolkit/src/array/chunk.ts",
-          "hash": "5700583266854682564"
-        },
-        {
-          "file": "packages/toolkit/src/array/index.ts",
-          "hash": "15176262651936166490"
-        },
-        {
-          "file": "packages/toolkit/src/index.ts",
-          "hash": "9143784775798968516"
-        },
-        {
-          "file": "packages/toolkit/tsconfig.json",
-          "hash": "12087752795397925508"
-        }
-      ],
       "@nant-es/modules": [
         {
           "file": "packages/modules/README.md",
@@ -396,6 +318,84 @@
         },
         {
           "file": "packages/internal/tsconfig.json",
+          "hash": "12087752795397925508"
+        }
+      ],
+      "@nant-es/toolkit": [
+        {
+          "file": "packages/toolkit/README.md",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/toolkit/dist/array/chunk.d.mts",
+          "hash": "3052921832016101854"
+        },
+        {
+          "file": "packages/toolkit/dist/array/chunk.d.ts",
+          "hash": "3052921832016101854"
+        },
+        {
+          "file": "packages/toolkit/dist/array/chunk.js",
+          "hash": "12136413386987245333"
+        },
+        {
+          "file": "packages/toolkit/dist/array/chunk.mjs",
+          "hash": "12514636505793649937"
+        },
+        {
+          "file": "packages/toolkit/dist/array/index.d.mts",
+          "hash": "6855934436506497041"
+        },
+        {
+          "file": "packages/toolkit/dist/array/index.d.ts",
+          "hash": "9642792232448050960"
+        },
+        {
+          "file": "packages/toolkit/dist/array/index.js",
+          "hash": "2628887171878517201"
+        },
+        {
+          "file": "packages/toolkit/dist/array/index.mjs",
+          "hash": "6855934436506497041"
+        },
+        {
+          "file": "packages/toolkit/dist/index.d.mts",
+          "hash": "6809919956944389483"
+        },
+        {
+          "file": "packages/toolkit/dist/index.d.ts",
+          "hash": "13874858666273516473"
+        },
+        {
+          "file": "packages/toolkit/dist/index.js",
+          "hash": "17305447891298371457"
+        },
+        {
+          "file": "packages/toolkit/dist/index.mjs",
+          "hash": "6809919956944389483"
+        },
+        {
+          "file": "packages/toolkit/package.json",
+          "hash": "772835783113065039"
+        },
+        {
+          "file": "packages/toolkit/rollup.config.mjs",
+          "hash": "3966795376785807132"
+        },
+        {
+          "file": "packages/toolkit/src/array/chunk.ts",
+          "hash": "5700583266854682564"
+        },
+        {
+          "file": "packages/toolkit/src/array/index.ts",
+          "hash": "15176262651936166490"
+        },
+        {
+          "file": "packages/toolkit/src/index.ts",
+          "hash": "9143784775798968516"
+        },
+        {
+          "file": "packages/toolkit/tsconfig.json",
           "hash": "12087752795397925508"
         }
       ]
