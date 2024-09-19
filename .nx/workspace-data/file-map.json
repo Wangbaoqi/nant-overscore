@@ -20,38 +20,6 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "playground/a.js",
-        "hash": "17027583102102296569"
-      },
-      {
-        "file": "package.json",
-        "hash": "13327676586984108303"
-      },
-      {
-        "file": "README.md",
-        "hash": "8714315727293932368"
-      },
-      {
-        "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "5053342243504666515"
-      },
-      {
-        "file": "rollup.config.base.mjs",
-        "hash": "21711382199078859"
-      },
-      {
-        "file": "nx.json",
-        "hash": "1921754567074770008"
-      },
-      {
-        "file": "biome.json",
-        "hash": "4510303043778514619"
-      },
-      {
-        "file": "playground/index.html",
-        "hash": "282954965526059906"
-      },
-      {
         "file": "lerna.json",
         "hash": "16301509908243031255"
       },
@@ -60,12 +28,36 @@
         "hash": "5042987118078459874"
       },
       {
+        "file": "biome.json",
+        "hash": "4510303043778514619"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1921754567074770008"
+      },
+      {
+        "file": "playground/index.html",
+        "hash": "282954965526059906"
+      },
+      {
+        "file": "rollup.config.base.mjs",
+        "hash": "21711382199078859"
+      },
+      {
         "file": ".npmignore",
-        "hash": "15296119703863351660"
+        "hash": "7134766449727442996"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "10070796640739704990"
       },
       {
         "file": ".gitignore",
-        "hash": "2458673331548014493"
+        "hash": "17823599784719660784"
+      },
+      {
+        "file": "README.md",
+        "hash": "8714315727293932368"
       },
       {
         "file": "pnpm-lock.yaml",
@@ -76,8 +68,12 @@
         "hash": "2958801209786017785"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "10070796640739704990"
+        "file": "playground/a.js",
+        "hash": "17027583102102296569"
+      },
+      {
+        "file": "package.json",
+        "hash": "13327676586984108303"
       }
     ],
     "projectFileMap": {
