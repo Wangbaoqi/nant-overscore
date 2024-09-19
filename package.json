@@ -4,9 +4,12 @@
   "description": "nant es core",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "check": "biome check --write ./packages",
     "lint": "biome lint --write ./packages",
     "format": "biome format --write ./packages",
+    "build": "lerna build",
+    "publish": "lerna publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
