@@ -1,6 +1,7 @@
 
 node_modules
 
+.nx
 .nx/
 .git
 .package-lock.json
